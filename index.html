@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ergon — demo film (demo data only)</title>
+<meta name="description" content="Ergon demo film, Ticket 207 presentation cut — recorded from real end-to-end runs on an invented demo company. Demo data only; no voice input; call material labelled Simulated call.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg%20xmlns%3D'http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg'%20viewBox%3D'0%200%2024%2024'%3E%3Crect%20width%3D'24'%20height%3D'24'%20rx%3D'5'%20fill%3D'%25230A0A0A'%2F%3E%3Cg%20stroke%3D'%2523FAFAFA'%20stroke-width%3D'1.2'%20stroke-linecap%3D'round'%20opacity%3D'.9'%3E%3Cline%20x1%3D'4.6'%20y1%3D'6.2'%20x2%3D'12'%20y2%3D'4.4'%2F%3E%3Cline%20x1%3D'4.6'%20y1%3D'6.2'%20x2%3D'12'%20y2%3D'12'%2F%3E%3Cline%20x1%3D'4.6'%20y1%3D'12'%20x2%3D'12'%20y2%3D'4.4'%2F%3E%3Cline%20x1%3D'4.6'%20y1%3D'12'%20x2%3D'12'%20y2%3D'12'%2F%3E%3Cline%20x1%3D'4.6'%20y1%3D'12'%20x2%3D'12'%20y2%3D'19.6'%2F%3E%3Cline%20x1%3D'4.6'%20y1%3D'17.8'%20x2%3D'12'%20y2%3D'12'%2F%3E%3Cline%20x1%3D'4.6'%20y1%3D'17.8'%20x2%3D'12'%20y2%3D'19.6'%2F%3E%3Cline%20x1%3D'12'%20y1%3D'4.4'%20x2%3D'19.4'%20y2%3D'6.2'%2F%3E%3Cline%20x1%3D'12'%20y1%3D'4.4'%20x2%3D'19.4'%20y2%3D'12'%2F%3E%3Cline%20x1%3D'12'%20y1%3D'12'%20x2%3D'19.4'%20y2%3D'6.2'%2F%3E%3Cline%20x1%3D'12'%20y1%3D'12'%20x2%3D'19.4'%20y2%3D'12'%2F%3E%3Cline%20x1%3D'12'%20y1%3D'12'%20x2%3D'19.4'%20y2%3D'17.8'%2F%3E%3Cline%20x1%3D'12'%20y1%3D'19.6'%20x2%3D'19.4'%20y2%3D'12'%2F%3E%3Cline%20x1%3D'12'%20y1%3D'19.6'%20x2%3D'19.4'%20y2%3D'17.8'%2F%3E%3C%2Fg%3E%3Cg%20fill%3D'%2523FAFAFA'%3E%3Ccircle%20cx%3D'4.6'%20cy%3D'6.2'%20r%3D'1.4'%2F%3E%3Ccircle%20cx%3D'4.6'%20cy%3D'12'%20r%3D'1.4'%2F%3E%3Ccircle%20cx%3D'4.6'%20cy%3D'17.8'%20r%3D'1.4'%2F%3E%3Ccircle%20cx%3D'12'%20cy%3D'4.4'%20r%3D'1.4'%2F%3E%3Ccircle%20cx%3D'12'%20cy%3D'12'%20r%3D'1.4'%2F%3E%3Ccircle%20cx%3D'12'%20cy%3D'19.6'%20r%3D'1.4'%2F%3E%3Ccircle%20cx%3D'19.4'%20cy%3D'6.2'%20r%3D'1.4'%2F%3E%3Ccircle%20cx%3D'19.4'%20cy%3D'12'%20r%3D'1.4'%2F%3E%3Ccircle%20cx%3D'19.4'%20cy%3D'17.8'%20r%3D'1.4'%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E">
+<link rel="preload" href="fonts/Geist-Regular.ttf" as="font" type="font/ttf" crossorigin>
+<style>
+/* Frontend Reference Gate rev 2 / Front-End Standard 069 dark (§7.3) — token source:
+   /home/cayleb/.dsh-fleet-state/standards/front-end-standard.md v1.0.0
+   sha256 ffddab9f5648e36fb4d7d1643d7260346f98e4ef0c0cd389b0c522f03b2023fc
+   The block below is §7.3 copied verbatim; the page roles after it are defined only in its terms. */
+@font-face{font-family:"Geist";src:url("fonts/Geist-Regular.ttf") format("truetype");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Geist";src:url("fonts/Geist-Medium.ttf") format("truetype");font-weight:500;font-style:normal;font-display:swap}
+@font-face{font-family:"Geist";src:url("fonts/Geist-SemiBold.ttf") format("truetype");font-weight:600;font-style:normal;font-display:swap}
+@font-face{font-family:"Geist Mono";src:url("fonts/GeistMono-Regular.ttf") format("truetype");font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:"Geist Mono";src:url("fonts/GeistMono-Bold.ttf") format("truetype");font-weight:700;font-style:normal;font-display:swap}
+
+:root {
+  color-scheme: dark;
+
+  /* ground + surfaces — the confirmed neutral ramp mirrored about mid-lightness,
+     clamped into the readable dark window [0.145, 0.985] */
+  --eg-base:        oklch(0.145 0 0);   /* #0A0A0A  the ground (mirror of the confirmed ink) */
+  --eg-panel:       oklch(0.185 0 0);   /* #131313  raised card, one step above the ground */
+  --eg-raise:       oklch(0.205 0 0);   /* #171717  raised surface */
+  --eg-sidebar:     oklch(0.165 0 0);   /* #0E0E0E  one step under the ground */
+  --eg-muted-bg:    oklch(0.235 0 0);   /* #1E1E1E */
+  --eg-hover:       oklch(0.235 0 0);   /* #1E1E1E */
+
+  /* ink */
+  --eg-ink:         oklch(0.985 0 0);   /* #FAFAFA  18.97:1 on the ground */
+  --eg-muted:       oklch(0.720 0 0);   /* #A4A4A4   7.94:1 on the ground */
+  --eg-subtle:      oklch(0.620 0 0);   /* #868686   5.44:1 on the ground */
+
+  /* hairlines — 1px only; a border never fakes depth, and depth is --eg-shadow */
+  --eg-line:        oklch(0.300 0 0);   /* #2E2E2E */
+  --eg-line-strong: oklch(0.380 0 0);   /* #424242 */
+  --eg-field-line:  oklch(0.480 0 0);   /* #5D5D5D */
+
+  /* primary — inverted as a role: near-white face, dark text */
+  --eg-accent:       oklch(0.985 0 0);  /* #FAFAFA */
+  --eg-accent-hover: #E5E5E5;
+  --eg-accent-press: #D4D4D4;
+  --eg-on-accent:    oklch(0.145 0 0);  /* #0A0A0A  18.97:1 on the face */
+  --eg-accent-wash:  rgba(250, 250, 250, 0.08);
+
+  /* state — STATE ONLY, never decoration; contrast on the ground is noted */
+  --eg-ok:          oklch(0.760 0.150 152);  /* #5BCC80   9.80:1 */
+  --eg-warn:        oklch(0.800 0.140 80);   /* #EDB345  10.50:1 */
+  --eg-danger:      oklch(0.700 0.190 25);   /* #FF645F   6.83:1 */
+  --eg-ok-wash:     rgba(91, 204, 128, 0.14);
+  --eg-warn-wash:   rgba(237, 179, 69, 0.14);
+  --eg-danger-wash: rgba(255, 100, 95, 0.14);
+  --eg-close-hover: #E24947;
+  --eg-close-press: #CC3336;
+
+  /* depth — a white-scheme shadow is invisible on dark, so it gets its own tokens */
+  --eg-scrim:  rgba(0, 0, 0, 0.66);
+  --eg-shadow: rgba(0, 0, 0, 0.55);
+
+  /* hairline discipline: exactly one width */
+  --eg-hairline: 1px;
+
+  /* ---- page roles (document surface), defined only in the tokens above ---- */
+  --font-sans: "Geist", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --eg-text-body: 14px;      /* §8 */
+  --eg-text-caption: 12.5px; /* §8 */
+  --eg-text-heading: 22px;   /* §8 */
+  --eg-radius-control: 6px;  /* §8 */
+  --eg-radius-lg: 10px;      /* §8 */
+  --eg-radius-xl: 14px;      /* §8 */
+  --eg-space-1: 8px;         /* §8 */
+  --eg-space-2: 12px;
+  --eg-space-3: 16px;
+  --eg-space-4: 24px;
+  --eg-space-5: 32px;
+  --eg-motion-tap: 120ms;
+  --eg-ease: cubic-bezier(0.22, 1, 0.36, 1);
+  --page-title: 30px;        /* named deviation 1 (PUBLISH-TOKENS.md §4): document title role */
+  --page-measure: 1120px;    /* layout measure */
+  --eg-media-ground: #000;   /* named deviation 2: true-black letterbox, media chrome not a surface */
+}
+*{box-sizing:border-box}
+html{background:var(--eg-base);-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--eg-base);color:var(--eg-ink);font:var(--eg-text-body)/1.6 var(--font-sans);-webkit-font-smoothing:antialiased}
+::selection{background:var(--eg-accent-wash)}
+a{color:var(--eg-ink);text-decoration:underline;text-decoration-color:var(--eg-line-strong);text-underline-offset:3px}
+a:hover{text-decoration-color:var(--eg-ink)}
+:focus-visible{outline:2px solid var(--eg-field-line);outline-offset:2px;border-radius:var(--eg-radius-control)}
+.mono{font-family:var(--font-mono);font-variant-numeric:tabular-nums}
+main{max-width:var(--page-measure);margin:0 auto;padding:var(--eg-space-5) var(--eg-space-5) var(--eg-space-4)}
+.chip{display:inline-block;padding:4px 10px;border:var(--eg-hairline) solid var(--eg-line);border-radius:var(--eg-radius-control);background:var(--eg-warn-wash);color:var(--eg-warn);font-size:var(--eg-text-caption);font-weight:600;letter-spacing:.08em;text-transform:uppercase}
+h1{font-size:var(--page-title);line-height:1.15;letter-spacing:-.02em;font-weight:600;margin:0 0 var(--eg-space-1)}
+.meta{color:var(--eg-muted);font-size:var(--eg-text-caption);line-height:1.9;margin:0 0 var(--eg-space-1)}
+.sha-line{margin:0 0 var(--eg-space-4)}
+.meta .mono{color:var(--eg-ink)}
+.chip{margin-bottom:var(--eg-space-2)}
+.sha{word-break:break-all}
+.player{margin:0 0 var(--eg-space-3)}
+.video-frame{border:var(--eg-hairline) solid var(--eg-line);border-radius:var(--eg-radius-lg);overflow:hidden;background:var(--eg-media-ground);box-shadow:0 12px 32px var(--eg-shadow)}
+video{display:block;width:100%;height:auto;aspect-ratio:16/9;background:var(--eg-media-ground)}
+.caption{color:var(--eg-muted);font-size:var(--eg-text-caption);line-height:1.7;margin:0 0 var(--eg-space-4)}
+.caption b{color:var(--eg-ink);font-weight:600}
+.actions{display:flex;flex-wrap:wrap;gap:var(--eg-space-2);margin:0 0 var(--eg-space-5)}
+.btn{display:inline-flex;align-items:center;gap:var(--eg-space-1);min-height:36px;padding:0 14px;border:var(--eg-hairline) solid var(--eg-line-strong);border-radius:var(--eg-radius-control);background:transparent;color:var(--eg-ink);font:500 var(--eg-text-body)/1 var(--font-sans);text-decoration:none;transition:background var(--eg-motion-tap) var(--eg-ease),border-color var(--eg-motion-tap) var(--eg-ease)}
+.btn:hover{background:var(--eg-hover)}
+.btn.primary{background:var(--eg-accent);color:var(--eg-on-accent);border-color:transparent}
+.btn.primary:hover{background:var(--eg-accent-hover)}
+.btn.primary:active{background:var(--eg-accent-press)}
+.btn .mono{font-size:var(--eg-text-caption);opacity:.72}
+.card{border:var(--eg-hairline) solid var(--eg-line-strong);border-radius:var(--eg-radius-xl);background:var(--eg-panel);padding:var(--eg-space-4);margin:0 0 var(--eg-space-3)}
+.card h2{font-size:var(--eg-text-heading);line-height:1.3;letter-spacing:-.01em;font-weight:600;margin:0 0 var(--eg-space-2)}
+.card p{margin:0 0 var(--eg-space-2);color:var(--eg-muted)}
+.card p:last-child{margin-bottom:0}
+.card b{color:var(--eg-ink);font-weight:600}
+.scenes{padding:var(--eg-space-2) var(--eg-space-4) var(--eg-space-1)}
+.scenes h2{padding-top:var(--eg-space-2);margin-bottom:var(--eg-space-1)}
+.scene-list{list-style:none;margin:0;padding:0}
+.scene{display:grid;grid-template-columns:32px 1fr auto;gap:var(--eg-space-2);align-items:baseline;padding:10px 0;border-top:var(--eg-hairline) solid var(--eg-line)}
+.scene:first-child{border-top:0}
+.scene .num{color:var(--eg-subtle);font-size:var(--eg-text-caption)}
+.scene .title{color:var(--eg-ink)}
+.scene .time{color:var(--eg-muted);font-size:var(--eg-text-caption);text-decoration:none;padding:2px 6px;border:var(--eg-hairline) solid transparent;border-radius:var(--eg-radius-control)}
+.scene .time:hover{color:var(--eg-ink);border-color:var(--eg-line);background:var(--eg-hover)}
+footer{border-top:var(--eg-hairline) solid var(--eg-line);margin-top:var(--eg-space-5);padding-top:var(--eg-space-3);color:var(--eg-muted);font-size:var(--eg-text-caption)}
+.proof{display:flex;flex-wrap:wrap;align-items:center;gap:var(--eg-space-1);margin:0 0 var(--eg-space-2)}
+.proof .sep{color:var(--eg-subtle)}
+.fine{color:var(--eg-subtle);line-height:1.8;margin:0}
+.fine .mono{color:var(--eg-muted);word-break:break-all}
+@media (max-width:640px){
+  main{padding:var(--eg-space-4) var(--eg-space-3)}
+  h1{font-size:26px}
+  .card{padding:var(--eg-space-3)}
+  .scenes{padding:var(--eg-space-2) var(--eg-space-3) 0}
+  .scene{grid-template-columns:28px 1fr auto}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<main>
+  <header>
+    <span class="chip">Demo data only</span>
+    <h1>Ergon — demo film</h1>
+    <p class="meta">Ticket 207 presentation cut · <span class="mono">14</span> scenes · runtime <span class="mono">6:20.000</span></p>
+    <p class="meta sha-line">sha256 <span class="mono sha">466d5b31c99352eeb16c73df6a5438795361dae3853fab456bff02df57b540eb</span></p>
+  </header>
+
+  <section class="player" aria-label="The film">
+    <div class="video-frame">
+      <video id="film" controls playsinline preload="metadata" poster="poster.jpg" width="1280" height="720">
+        <source src="ergon-demo-cut-6m20.mp4" type="video/mp4">
+        Your browser cannot play this MP4. <a href="ergon-demo-cut-6m20.mp4">Download the film (11.0 MB)</a>.
+      </video>
+    </div>
+  </section>
+
+  <p class="caption">Recorded from real end-to-end runs on the Ergon demo company environment. No voice input anywhere — requests are typed on camera; call material carries the on-screen <b>Simulated call</b> label throughout.</p>
+
+  <div class="actions">
+    <a class="btn primary" href="ergon-demo-cut-6m20.mp4" download>Download the film <span class="mono">11.0 MB</span></a>
+    <a class="btn" href="CUT-MANIFEST.json">Cut manifest <span class="mono">JSON</span></a>
+    <a class="btn" href="PUBLISH.json">Publication record <span class="mono">JSON</span></a>
+  </div>
+
+  <section class="card" aria-labelledby="what">
+    <h2 id="what">What this film is</h2>
+    <p>This is the <b>presentation cut</b> of the Ergon demo film — 14 FILMABLE NOW scenes from a real end-to-end run on the Ergon demo company environment: an invented warehouse company with lettered board lines, crews on the road, dump runs and a morning job flow, all on <b>invented demo data only</b>. The company is a demo; <b>Ergon is company-agnostic</b>.</p>
+    <p>The 7 NEEDS BUILD scenes (5, 8, 10, 12, 14, 19, 20) are not footage — they are a build-requirements list, and they are not in this film and are not faked.</p>
+    <p>Re-shot for this cut: scenes <b>02, 03, 13, 15, 17 and 18</b>. Borrowed and named in the cut manifest: scenes <b>06 and 13</b>. Nothing in the film is staged: every scene is a real continuous take on a running demo build, and the cut manifest carries each take's sha256 and run evidence.</p>
+  </section>
+
+  <section class="card scenes" aria-labelledby="scenes">
+    <h2 id="scenes">Scenes</h2>
+    <ol class="scene-list">
+      <li class="scene"><span class="mono num">01</span><span class="title">The demo company</span><a class="mono time" href="#scene-01" data-seek="10.5" aria-label="Play the film from 0:10" title="Play from 0:10">0:10</a></li>
+      <li class="scene"><span class="mono num">02</span><span class="title">One agent, one thread</span><a class="mono time" href="#scene-02" data-seek="41.2" aria-label="Play the film from 0:41" title="Play from 0:41">0:41</a></li>
+      <li class="scene"><span class="mono num">03</span><span class="title">The inbox of decisions</span><a class="mono time" href="#scene-03" data-seek="62.9" aria-label="Play the film from 1:02" title="Play from 1:02">1:02</a></li>
+      <li class="scene"><span class="mono num">04</span><span class="title">The shared company library</span><a class="mono time" href="#scene-04" data-seek="89.5" aria-label="Play the film from 1:29" title="Play from 1:29">1:29</a></li>
+      <li class="scene"><span class="mono num">06</span><span class="title">Morning brief, warehouse</span><a class="mono time" href="#scene-06" data-seek="107.9" aria-label="Play the film from 1:47" title="Play from 1:47">1:47</a></li>
+      <li class="scene"><span class="mono num">07</span><span class="title">Call the truck company (Simulated call)</span><a class="mono time" href="#scene-07" data-seek="135.1" aria-label="Play the film from 2:15" title="Play from 2:15">2:15</a></li>
+      <li class="scene"><span class="mono num">09</span><span class="title">Add this job to line F</span><a class="mono time" href="#scene-09" data-seek="168.3" aria-label="Play the film from 2:48" title="Play from 2:48">2:48</a></li>
+      <li class="scene"><span class="mono num">11</span><span class="title">Build the skill</span><a class="mono time" href="#scene-11" data-seek="203.4" aria-label="Play the film from 3:23" title="Play from 3:23">3:23</a></li>
+      <li class="scene"><span class="mono num">13</span><span class="title">The board in the crew's hand</span><a class="mono time" href="#scene-13" data-seek="228.7" aria-label="Play the film from 3:48" title="Play from 3:48">3:48</a></li>
+      <li class="scene"><span class="mono num">15</span><span class="title">Apps beside the thread</span><a class="mono time" href="#scene-15" data-seek="250" aria-label="Play the film from 4:10" title="Play from 4:10">4:10</a></li>
+      <li class="scene"><span class="mono num">16</span><span class="title">Chosen for the role</span><a class="mono time" href="#scene-16" data-seek="274.6" aria-label="Play the film from 4:34" title="Play from 4:34">4:34</a></li>
+      <li class="scene"><span class="mono num">17</span><span class="title">Approve in place</span><a class="mono time" href="#scene-17" data-seek="297.3" aria-label="Play the film from 4:57" title="Play from 4:57">4:57</a></li>
+      <li class="scene"><span class="mono num">18</span><span class="title">The record, and what is still waiting</span><a class="mono time" href="#scene-18" data-seek="322.5" aria-label="Play the film from 5:22" title="Play from 5:22">5:22</a></li>
+      <li class="scene"><span class="mono num">21</span><span class="title">Demo data only, and company-agnostic</span><a class="mono time" href="#scene-21" data-seek="348.6" aria-label="Play the film from 5:48" title="Play from 5:48">5:48</a></li>
+    </ol>
+  </section>
+
+  <footer>
+    <p class="proof"><a href="PUBLISH.json">PUBLISH.json</a><span class="sep">·</span><a href="CUT-MANIFEST.json">CUT-MANIFEST.json</a><span class="sep">·</span><a href="ergon-demo-cut-6m20.mp4">ergon-demo-cut-6m20.mp4</a></p>
+    <p class="fine">Film sha256 <span class="mono">466d5b31c99352eeb16c73df6a5438795361dae3853fab456bff02df57b540eb</span> · 11,507,355 bytes · exact runtime <span class="mono">6:20.000</span> · 1280x720 h264 yuv420p 30 fps · no audio.<br>
+    Served from a public GitHub Pages repo; the page, film, cut manifest and publication record are all at this root. The film is byte-for-byte the delivered cut.<br>
+    Demo data only — invented demo company, never live production. Built under Frontend Reference Gate rev 2 and Front-End Standard 069 (dark §7.3); Geist Sans/Mono self-hosted from the product's own font files.</p>
+  </footer>
+</main>
+<script>
+(() => {
+  const film = document.getElementById('film');
+  if (!film) return;
+  document.querySelectorAll('a[data-seek]').forEach((a) => {
+    a.addEventListener('click', (e) => {
+      e.preventDefault();
+      const t = Number(a.dataset.seek);
+      if (!Number.isFinite(t)) return;
+      film.currentTime = t;
+      film.play().catch(() => {});
+      film.focus({ preventScroll: true });
+      film.scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+    });
+  });
+})();
+</script>
+</body>
+</html>

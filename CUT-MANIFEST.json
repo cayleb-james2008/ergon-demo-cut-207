@@ -1,0 +1,616 @@
+{
+  "ticket": "207",
+  "video": {
+    "file": "ergon-demo-cut-6m20.mp4",
+    "sha256": "466d5b31c99352eeb16c73df6a5438795361dae3853fab456bff02df57b540eb",
+    "bytes": 11507355,
+    "durationSec": 380,
+    "frames": 11400,
+    "targetFrames": 11400,
+    "canvas": {
+      "width": 1280,
+      "height": 720,
+      "fps": 30
+    },
+    "faststart": true,
+    "audio": false,
+    "ffprobe": {
+      "codec": "h264",
+      "profile": "High",
+      "pixFmt": "yuv420p",
+      "width": 1280,
+      "height": 720,
+      "fps": 30,
+      "rFrameRate": "30/1",
+      "frames": 11400
+    }
+  },
+  "buildManifestSha256": "eb1c60242a2a0cf0de55d6957319fe30bf46092358aa498e20a9cd0b5fafcb93",
+  "buildManifests": {
+    "scrubbed": {
+      "sha256": "eb1c60242a2a0cf0de55d6957319fe30bf46092358aa498e20a9cd0b5fafcb93",
+      "note": "scrubbed demo build used for the five re-shot scenes (W1)"
+    },
+    "graded206": {
+      "sha256": "f37e673410cf8ae2326fd8690e4f0eff59b62d321cfd24cfc66ce0aa43d5ebb8",
+      "note": "build the kept 206 takes and the scene-13 phone-run6 take were recorded on"
+    }
+  },
+  "scenes": [
+    {
+      "scene": "01",
+      "act": "Act 1 Setup",
+      "title": "The demo company",
+      "takeFile": "/home/cayleb/.dsh-fleet-state/missions/m-0338/work/worker-lead/out-long/takes/01/01.mp4",
+      "takeSha256": "1d3d9d281ae45df93831a3d4f5a8b2ec843677f8eeb23e9860b54647532b5b38",
+      "inSec": 0.3,
+      "outSec": 28.058,
+      "contentSec": 27.758,
+      "headHoldSec": 1.8,
+      "tailHoldSec": 1.146,
+      "frames": 921,
+      "cutStartSec": 10.5,
+      "cutEndSec": 41.2,
+      "runEvidence": "real continuous capture on the running demo pack, real CDP input, build-hash bound",
+      "reshot": false,
+      "reshotReason": "",
+      "buildManifestSha256": "f37e673410cf8ae2326fd8690e4f0eff59b62d321cfd24cfc66ce0aa43d5ebb8",
+      "callMaterial": false,
+      "slateLines": [
+        "SCENE 01 · The demo company"
+      ],
+      "slateText": "SCENE 01 · The demo company",
+      "smallSlateText": "SCENE 01 · The demo company"
+    },
+    {
+      "scene": "02",
+      "act": "Act 1 Setup",
+      "title": "One agent, one thread",
+      "takeFile": "/home/cayleb/.dsh-fleet-state/missions/m-0339/work/worker-1/footage/desktop-run207/takes/02/02.mp4",
+      "takeSha256": "7208c30c161ff28251c46cbc9cd5afff8d838a07e173eeaf49ad66c884cb7f81",
+      "inSec": 0.3,
+      "outSec": 19.047,
+      "contentSec": 18.747,
+      "headHoldSec": 1.8,
+      "tailHoldSec": 1.146,
+      "frames": 650,
+      "cutStartSec": 41.2,
+      "cutEndSec": 62.867,
+      "runEvidence": "footage/desktop-run207/takes/02/take.json",
+      "reshot": true,
+      "reshotReason": "re-shot on the scrubbed build (BUILD-MANIFEST eb1c60242a2a…) with the 206 rig; W1 run evidence: footage/desktop-run207/takes/02/take.json",
+      "buildManifestSha256": "eb1c60242a2a0cf0de55d6957319fe30bf46092358aa498e20a9cd0b5fafcb93",
+      "callMaterial": false,
+      "slateLines": [
+        "SCENE 02 · One agent, one thread"
+      ],
+      "slateText": "SCENE 02 · One agent, one thread",
+      "smallSlateText": "SCENE 02 · One agent, one thread"
+    },
+    {
+      "scene": "03",
+      "act": "Act 1 Setup",
+      "title": "The inbox of decisions",
+      "takeFile": "/home/cayleb/.dsh-fleet-state/missions/m-0339/work/worker-1/footage/desktop-run207/takes/03/03.mp4",
+      "takeSha256": "4cb7fbbdd49f977d10377efff34de173d45a702d51ff784dcfd314f04ae15f80",
+      "inSec": 0.3,
+      "outSec": 24.047,
+      "contentSec": 23.747,
+      "headHoldSec": 1.8,
+      "tailHoldSec": 1.146,
+      "frames": 800,
+      "cutStartSec": 62.867,
+      "cutEndSec": 89.533,
+      "runEvidence": "footage/desktop-run207/takes/03/take.json",
+      "reshot": true,
+      "reshotReason": "re-shot on the scrubbed build (BUILD-MANIFEST eb1c60242a2a…) with the 206 rig; W1 run evidence: footage/desktop-run207/takes/03/take.json",
+      "buildManifestSha256": "eb1c60242a2a0cf0de55d6957319fe30bf46092358aa498e20a9cd0b5fafcb93",
+      "callMaterial": false,
+      "slateLines": [
+        "SCENE 03 · The inbox of decisions"
+      ],
+      "slateText": "SCENE 03 · The inbox of decisions",
+      "smallSlateText": "SCENE 03 · The inbox of decisions"
+    },
+    {
+      "scene": "04",
+      "act": "Act 1 Setup",
+      "title": "The shared company library",
+      "takeFile": "/home/cayleb/.dsh-fleet-state/missions/m-0338/work/worker-3/footage/phone-run1/takes/04-take.mp4",
+      "takeSha256": "1442d4056d2166f37bc6cd35cc8d3f66784fa0767f92007a91ee618bc65a1109",
+      "inSec": 0.3,
+      "outSec": 13.185,
+      "contentSec": 12.885,
+      "headHoldSec": 1.8,
+      "tailHoldSec": 1.146,
+      "frames": 475,
+      "cutStartSec": 89.533,
+      "cutEndSec": 105.367,
+      "runEvidence": "W3 fresh continuous phone-VM take (emulator-5611, 780x1688) on the running demo pack; 29-step warehouse run",
+      "reshot": false,
+      "reshotReason": "",
+      "buildManifestSha256": "f37e673410cf8ae2326fd8690e4f0eff59b62d321cfd24cfc66ce0aa43d5ebb8",
+      "callMaterial": false,
+      "slateLines": [
+        "SCENE 04 · The shared company library"
+      ],
+      "slateText": "SCENE 04 · The shared company library",
+      "smallSlateText": "SCENE 04 · The shared company library"
+    },
+    {
+      "scene": "06",
+      "act": "Act 2 One warehouse day",
+      "title": "Morning brief, warehouse",
+      "takeFile": "/home/cayleb/.dsh-fleet-state/missions/m-0327/work/walkthrough-phone.mp4",
+      "takeSha256": "b145e80e5145e3b36c7a4147c2e3c059dc3ac13f09a5e8614b1f9aba0d4699da",
+      "inSec": 3,
+      "outSec": 27.311,
+      "contentSec": 24.311,
+      "headHoldSec": 1.8,
+      "tailHoldSec": 1.146,
+      "frames": 817,
+      "cutStartSec": 107.867,
+      "cutEndSec": 135.1,
+      "runEvidence": "m-0327 Ticket 195 graded phone take: continuous real screenrecord on emulator-5611, 29/29 steps, graded PASS",
+      "reshot": false,
+      "reshotReason": "",
+      "buildManifestSha256": "f37e673410cf8ae2326fd8690e4f0eff59b62d321cfd24cfc66ce0aa43d5ebb8",
+      "callMaterial": false,
+      "slateLines": [
+        "SCENE 06 · Morning brief, warehouse"
+      ],
+      "slateText": "SCENE 06 · Morning brief, warehouse",
+      "smallSlateText": "SCENE 06 · Morning brief, warehouse"
+    },
+    {
+      "scene": "07",
+      "act": "Act 2 One warehouse day",
+      "title": "Call the truck company (Simulated call)",
+      "takeFile": "/home/cayleb/.dsh-fleet-state/missions/m-0338/work/worker-3/footage/phone-run1/takes/07-take.mp4",
+      "takeSha256": "bf1a1a186e96c05f46fcdaa2b7ad5e0244454c350d5d273a89edf9ad31253c58",
+      "inSec": 0.3,
+      "outSec": 30.541,
+      "contentSec": 30.241,
+      "headHoldSec": 1.8,
+      "tailHoldSec": 1.146,
+      "frames": 995,
+      "cutStartSec": 135.1,
+      "cutEndSec": 168.267,
+      "runEvidence": "W3 fresh continuous phone-VM take (emulator-5611, 780x1688) on the running demo pack; 29-step warehouse run",
+      "reshot": false,
+      "reshotReason": "",
+      "buildManifestSha256": "f37e673410cf8ae2326fd8690e4f0eff59b62d321cfd24cfc66ce0aa43d5ebb8",
+      "callMaterial": true,
+      "slateLines": [
+        "SCENE 07 · Call the truck company"
+      ],
+      "slateText": "SCENE 07 · Call the truck company (Simulated call)",
+      "smallSlateText": "SCENE 07 · Call the truck company (Simulated call)"
+    },
+    {
+      "scene": "09",
+      "act": "Act 2 One warehouse day",
+      "title": "Add this job to line F",
+      "takeFile": "/home/cayleb/.dsh-fleet-state/missions/m-0338/work/worker-3/footage/phone-run1/takes/09-take.mp4",
+      "takeSha256": "3efc304e05733ea3f501990b2c869e46b4d14c16fcb16fc09311964dd3674544",
+      "inSec": 0.3,
+      "outSec": 32.529,
+      "contentSec": 32.229,
+      "headHoldSec": 1.8,
+      "tailHoldSec": 1.146,
+      "frames": 1055,
+      "cutStartSec": 168.267,
+      "cutEndSec": 203.433,
+      "runEvidence": "W3 fresh continuous phone-VM take (emulator-5611, 780x1688) on the running demo pack; 29-step warehouse run",
+      "reshot": false,
+      "reshotReason": "",
+      "buildManifestSha256": "f37e673410cf8ae2326fd8690e4f0eff59b62d321cfd24cfc66ce0aa43d5ebb8",
+      "callMaterial": false,
+      "slateLines": [
+        "SCENE 09 · Add this job to line F"
+      ],
+      "slateText": "SCENE 09 · Add this job to line F",
+      "smallSlateText": "SCENE 09 · Add this job to line F"
+    },
+    {
+      "scene": "11",
+      "act": "Act 2 One warehouse day",
+      "title": "Build the skill",
+      "takeFile": "/home/cayleb/.dsh-fleet-state/missions/m-0338/work/worker-3/footage/phone-run1/takes/11-take.mp4",
+      "takeSha256": "3faf81cc234eba7b19349464b48581a0808097c21b8c9ef3ea950b41d4932fa2",
+      "inSec": 0.3,
+      "outSec": 20.104,
+      "contentSec": 19.804,
+      "headHoldSec": 1.8,
+      "tailHoldSec": 1.146,
+      "frames": 682,
+      "cutStartSec": 203.433,
+      "cutEndSec": 226.167,
+      "runEvidence": "W3 fresh continuous phone-VM take (emulator-5611, 780x1688) on the running demo pack; 29-step warehouse run",
+      "reshot": false,
+      "reshotReason": "",
+      "buildManifestSha256": "f37e673410cf8ae2326fd8690e4f0eff59b62d321cfd24cfc66ce0aa43d5ebb8",
+      "callMaterial": false,
+      "slateLines": [
+        "SCENE 11 · Build the skill"
+      ],
+      "slateText": "SCENE 11 · Build the skill",
+      "smallSlateText": "SCENE 11 · Build the skill"
+    },
+    {
+      "scene": "13",
+      "act": "Act 3 What everyone else sees",
+      "title": "The board in the crew's hand",
+      "takeFile": "/home/cayleb/.dsh-fleet-state/missions/m-0339/work/worker-1/footage/phone-run6/takes/13-take.mp4",
+      "takeSha256": "e356faf11d61a99a6a3dbf3d33bf63bda44a74d19ed5b89b338835f04fbb91ef",
+      "inSec": 0,
+      "outSec": 14.604,
+      "contentSec": 14.604,
+      "headHoldSec": 1.8,
+      "tailHoldSec": 2.4,
+      "frames": 564,
+      "cutStartSec": 228.667,
+      "cutEndSec": 247.467,
+      "runEvidence": [
+        {
+          "id": "13a-board-ready",
+          "name": "the crew's board is open and booted",
+          "ok": true,
+          "op": "wait",
+          "expect": "board ready",
+          "t0": 1601,
+          "t1": 3717
+        },
+        {
+          "id": "13b-reveal-job",
+          "name": "scroll to the line-F job",
+          "ok": true,
+          "op": "reveal",
+          "expect": "job in view: TEST Lord's Haulage — dump run DMP-4471 Open DMP-4471 · 07:30 tomorrow · 2 pallets banded concrete · Bay C → bay 2 · tickets at the door AG",
+          "t0": 3717,
+          "t1": 7013
+        },
+        {
+          "id": "13c-open-dialog",
+          "name": "tap the job card: the board's own job dialog opens",
+          "ok": true,
+          "op": "tap",
+          "expect": "dialog open with title \"TEST Lord's Haulage — dump run DMP-4471\"",
+          "t0": 7013,
+          "t1": 9847
+        },
+        {
+          "id": "13d-close-dialog",
+          "name": "close the dialog (Escape)",
+          "ok": true,
+          "op": "cdpkey",
+          "expect": "dialog closed",
+          "t0": 9847,
+          "t1": 11741
+        },
+        {
+          "id": "13e-open-status",
+          "name": "open the line-F job's status control on the card",
+          "ok": true,
+          "op": "tap",
+          "expect": "status listbox open",
+          "t0": 11741,
+          "t1": 13547
+        },
+        {
+          "id": "13f-pick-done",
+          "name": "pick \"Done\"",
+          "ok": true,
+          "op": "tap",
+          "expect": "card data-status=done",
+          "t0": 13548,
+          "t1": 15897
+        },
+        {
+          "id": "13g-hold",
+          "name": "hold on the board with the status saved",
+          "ok": true,
+          "op": "wait",
+          "expect": "status change persisted in the board store: {\"status\":\"done\",\"revision\":2,\"isTest\":true}",
+          "t0": 15897,
+          "t1": 22958
+        }
+      ],
+      "reshot": true,
+      "reshotReason": "status-change step re-shot and proven: today's real continuous phone take phone-run6/13-take.mp4; steps 13a-13g all OK, 13f card data-status=done, 13g status persisted revision 2. Used whole take so the dialog -> Done -> persisted change is on screen.",
+      "buildManifestSha256": "f37e673410cf8ae2326fd8690e4f0eff59b62d321cfd24cfc66ce0aa43d5ebb8",
+      "callMaterial": false,
+      "slateLines": [
+        "SCENE 13 · The board in the crew's hand"
+      ],
+      "slateText": "SCENE 13 · The board in the crew's hand",
+      "smallSlateText": "SCENE 13 · The board in the crew's hand"
+    },
+    {
+      "scene": "15",
+      "act": "Act 4 Capabilities",
+      "title": "Apps beside the thread",
+      "takeFile": "/home/cayleb/.dsh-fleet-state/missions/m-0339/work/worker-1/footage/desktop-run207/takes/15/15.mp4",
+      "takeSha256": "4ae933cd4ec0cc8c757728eebc1856b17fcf4c7cacbe50d1a6d3bed3b750ec5e",
+      "inSec": 0.3,
+      "outSec": 22.013,
+      "contentSec": 21.713,
+      "headHoldSec": 1.8,
+      "tailHoldSec": 1.146,
+      "frames": 739,
+      "cutStartSec": 249.967,
+      "cutEndSec": 274.6,
+      "runEvidence": "footage/desktop-run207/takes/15/take.json",
+      "reshot": true,
+      "reshotReason": "re-shot on the scrubbed build (BUILD-MANIFEST eb1c60242a2a…) with the 206 rig; W1 run evidence: footage/desktop-run207/takes/15/take.json",
+      "buildManifestSha256": "eb1c60242a2a0cf0de55d6957319fe30bf46092358aa498e20a9cd0b5fafcb93",
+      "callMaterial": false,
+      "slateLines": [
+        "SCENE 15 · Apps beside the thread"
+      ],
+      "slateText": "SCENE 15 · Apps beside the thread",
+      "smallSlateText": "SCENE 15 · Apps beside the thread"
+    },
+    {
+      "scene": "16",
+      "act": "Act 4 Capabilities",
+      "title": "Chosen for the role",
+      "takeFile": "/home/cayleb/.dsh-fleet-state/missions/m-0338/work/worker-3/footage/phone-run1/takes/16-take.mp4",
+      "takeSha256": "5e15ac62d8b49dc77fffd4de56c2488cca4e26f05cf533ed4c266d3af6a2b6a1",
+      "inSec": 0.3,
+      "outSec": 20.061,
+      "contentSec": 19.761,
+      "headHoldSec": 1.8,
+      "tailHoldSec": 1.146,
+      "frames": 681,
+      "cutStartSec": 274.6,
+      "cutEndSec": 297.3,
+      "runEvidence": "W3 fresh continuous phone-VM take (emulator-5611, 780x1688) on the running demo pack; 29-step warehouse run",
+      "reshot": false,
+      "reshotReason": "",
+      "buildManifestSha256": "f37e673410cf8ae2326fd8690e4f0eff59b62d321cfd24cfc66ce0aa43d5ebb8",
+      "callMaterial": false,
+      "slateLines": [
+        "SCENE 16 · Chosen for the role"
+      ],
+      "slateText": "SCENE 16 · Chosen for the role",
+      "smallSlateText": "SCENE 16 · Chosen for the role"
+    },
+    {
+      "scene": "17",
+      "act": "Act 4 Capabilities",
+      "title": "Approve in place",
+      "takeFile": "/home/cayleb/.dsh-fleet-state/missions/m-0339/work/worker-1/footage/desktop-run207/takes/17/17.mp4",
+      "takeSha256": "3077c5437e9365c39d427639456a4eefd1ccedebbde363b84d997f219111be0a",
+      "inSec": 0.3,
+      "outSec": 22.547,
+      "contentSec": 22.247,
+      "headHoldSec": 1.8,
+      "tailHoldSec": 1.146,
+      "frames": 755,
+      "cutStartSec": 297.3,
+      "cutEndSec": 322.467,
+      "runEvidence": "footage/desktop-run207/takes/17/take.json",
+      "reshot": true,
+      "reshotReason": "re-shot on the scrubbed build (BUILD-MANIFEST eb1c60242a2a…) with the 206 rig; W1 run evidence: footage/desktop-run207/takes/17/take.json",
+      "buildManifestSha256": "eb1c60242a2a0cf0de55d6957319fe30bf46092358aa498e20a9cd0b5fafcb93",
+      "callMaterial": false,
+      "slateLines": [
+        "SCENE 17 · Approve in place"
+      ],
+      "slateText": "SCENE 17 · Approve in place",
+      "smallSlateText": "SCENE 17 · Approve in place"
+    },
+    {
+      "scene": "18",
+      "act": "Act 4 Capabilities",
+      "title": "The record, and what is still waiting",
+      "takeFile": "/home/cayleb/.dsh-fleet-state/missions/m-0339/work/worker-1/footage/desktop-run207/takes/18/18.mp4",
+      "takeSha256": "eecaf88b99946e8637b4ba0f2540aa780e63a2a797fe463bc44029e512f22773",
+      "inSec": 0.3,
+      "outSec": 23.513,
+      "contentSec": 23.213,
+      "headHoldSec": 1.8,
+      "tailHoldSec": 1.146,
+      "frames": 784,
+      "cutStartSec": 322.467,
+      "cutEndSec": 348.6,
+      "runEvidence": "footage/desktop-run207/takes/18/take.json",
+      "reshot": true,
+      "reshotReason": "re-shot on the scrubbed build (BUILD-MANIFEST eb1c60242a2a…) with the 206 rig; W1 run evidence: footage/desktop-run207/takes/18/take.json",
+      "buildManifestSha256": "eb1c60242a2a0cf0de55d6957319fe30bf46092358aa498e20a9cd0b5fafcb93",
+      "callMaterial": false,
+      "slateLines": [
+        "SCENE 18 · The record, and what is still waiting"
+      ],
+      "slateText": "SCENE 18 · The record, and what is still waiting",
+      "smallSlateText": "SCENE 18 · The record, and what is still waiting"
+    },
+    {
+      "scene": "21",
+      "act": "Act 4 Capabilities",
+      "title": "Demo data only, and company-agnostic",
+      "takeFile": "/home/cayleb/.dsh-fleet-state/missions/m-0338/work/worker-3/footage/phone-run1/takes/21-take.mp4",
+      "takeSha256": "afba3d754f908e71d93df1d7ca386f486c9351a2b8c68e73571e7f4ca487ed0b",
+      "inSec": 0.3,
+      "outSec": 20.539,
+      "contentSec": 20.239,
+      "headHoldSec": 1.8,
+      "tailHoldSec": 1.146,
+      "frames": 695,
+      "cutStartSec": 348.6,
+      "cutEndSec": 371.767,
+      "runEvidence": "W3 fresh continuous phone-VM take (emulator-5611, 780x1688) on the running demo pack; 29-step warehouse run",
+      "reshot": false,
+      "reshotReason": "",
+      "buildManifestSha256": "f37e673410cf8ae2326fd8690e4f0eff59b62d321cfd24cfc66ce0aa43d5ebb8",
+      "callMaterial": false,
+      "slateLines": [
+        "SCENE 21 · Demo data only,",
+        "and company-agnostic"
+      ],
+      "slateText": "SCENE 21 · Demo data only, and company-agnostic",
+      "smallSlateText": "SCENE 21 · Demo data only, and company-agnostic"
+    }
+  ],
+  "borrowedSegments": [
+    {
+      "scene": "06",
+      "from": "m-0327/work/walkthrough-phone.mp4",
+      "takeSha256": "b145e80e5145e3b36c7a4147c2e3c059dc3ac13f09a5e8614b1f9aba0d4699da",
+      "reason": "the m-0338 scene-06 take was a 1-frame screenrecord; borrowed from the graded m-0327 Ticket-195 phone take (same demo pack build), wood-brief window 3.0-27.3 s. Named borrowed segment (carried over from the graded 206 cut)."
+    },
+    {
+      "scene": "13",
+      "from": "m-0338/work/worker-3/footage/phone-run6/takes/13-take.mp4",
+      "takeSha256": "e356faf11d61a99a6a3dbf3d33bf63bda44a74d19ed5b89b338835f04fbb91ef",
+      "reason": "status-change step re-shot in the 206 mission's phone run 6 (real continuous emulator take, steps 13a-13g OK, 13f done, 13g persisted revision 2); the frozen 206 cut had reused the older take. Borrowed into this cut whole, named."
+    }
+  ],
+  "reshotScenes": [
+    {
+      "scene": "02",
+      "method": "re-captured desktop take on the scrubbed build with the real capture rig (real continuous run, CDP inputs)",
+      "takeFile": "/home/cayleb/.dsh-fleet-state/missions/m-0339/work/worker-1/footage/desktop-run207/takes/02/02.mp4",
+      "takeSha256": "7208c30c161ff28251c46cbc9cd5afff8d838a07e173eeaf49ad66c884cb7f81",
+      "reason": "re-shot on the scrubbed build (BUILD-MANIFEST eb1c60242a2a…) with the 206 rig; W1 run evidence: footage/desktop-run207/takes/02/take.json"
+    },
+    {
+      "scene": "03",
+      "method": "re-captured desktop take on the scrubbed build with the real capture rig (real continuous run, CDP inputs)",
+      "takeFile": "/home/cayleb/.dsh-fleet-state/missions/m-0339/work/worker-1/footage/desktop-run207/takes/03/03.mp4",
+      "takeSha256": "4cb7fbbdd49f977d10377efff34de173d45a702d51ff784dcfd314f04ae15f80",
+      "reason": "re-shot on the scrubbed build (BUILD-MANIFEST eb1c60242a2a…) with the 206 rig; W1 run evidence: footage/desktop-run207/takes/03/take.json"
+    },
+    {
+      "scene": "13",
+      "method": "re-shot phone take: today's real continuous phone-run6 take used whole (dialog -> status Done -> persisted)",
+      "takeFile": "/home/cayleb/.dsh-fleet-state/missions/m-0339/work/worker-1/footage/phone-run6/takes/13-take.mp4",
+      "takeSha256": "e356faf11d61a99a6a3dbf3d33bf63bda44a74d19ed5b89b338835f04fbb91ef",
+      "reason": "status-change step re-shot and proven: today's real continuous phone take phone-run6/13-take.mp4; steps 13a-13g all OK, 13f card data-status=done, 13g status persisted revision 2. Used whole take so the dialog -> Done -> persisted change is on screen."
+    },
+    {
+      "scene": "15",
+      "method": "re-captured desktop take on the scrubbed build with the real capture rig (real continuous run, CDP inputs)",
+      "takeFile": "/home/cayleb/.dsh-fleet-state/missions/m-0339/work/worker-1/footage/desktop-run207/takes/15/15.mp4",
+      "takeSha256": "4ae933cd4ec0cc8c757728eebc1856b17fcf4c7cacbe50d1a6d3bed3b750ec5e",
+      "reason": "re-shot on the scrubbed build (BUILD-MANIFEST eb1c60242a2a…) with the 206 rig; W1 run evidence: footage/desktop-run207/takes/15/take.json"
+    },
+    {
+      "scene": "17",
+      "method": "re-captured desktop take on the scrubbed build with the real capture rig (real continuous run, CDP inputs)",
+      "takeFile": "/home/cayleb/.dsh-fleet-state/missions/m-0339/work/worker-1/footage/desktop-run207/takes/17/17.mp4",
+      "takeSha256": "3077c5437e9365c39d427639456a4eefd1ccedebbde363b84d997f219111be0a",
+      "reason": "re-shot on the scrubbed build (BUILD-MANIFEST eb1c60242a2a…) with the 206 rig; W1 run evidence: footage/desktop-run207/takes/17/take.json"
+    },
+    {
+      "scene": "18",
+      "method": "re-captured desktop take on the scrubbed build with the real capture rig (real continuous run, CDP inputs)",
+      "takeFile": "/home/cayleb/.dsh-fleet-state/missions/m-0339/work/worker-1/footage/desktop-run207/takes/18/18.mp4",
+      "takeSha256": "eecaf88b99946e8637b4ba0f2540aa780e63a2a797fe463bc44029e512f22773",
+      "reason": "re-shot on the scrubbed build (BUILD-MANIFEST eb1c60242a2a…) with the 206 rig; W1 run evidence: footage/desktop-run207/takes/18/take.json"
+    }
+  ],
+  "disclosure": {
+    "lines": [
+      "Invented demo company. Demo data only.",
+      "Ergon is company-agnostic; this film is a presentation of Ergon.",
+      "Call material is labelled Simulated call.",
+      "No voice input anywhere."
+    ]
+  },
+  "target": {
+    "runtimeSec": 380,
+    "filename": "ergon-demo-cut-6m20.mp4"
+  },
+  "edl": {
+    "file": "edl/film207.json",
+    "sha256": "156de92b238392c7170850ada05ed1dc09b1aa593702ace413c343b14cbb64a3"
+  },
+  "endCardFrames": 247,
+  "builtAt": "2026-11-12T20:03:40.291Z",
+  "_build": {
+    "segments": [
+      {
+        "file": "build/segments/00-open.mp4",
+        "frames": 240
+      },
+      {
+        "file": "build/segments/act-1.mp4",
+        "frames": 75
+      },
+      {
+        "file": "build/segments/sc-01.mp4",
+        "frames": 921
+      },
+      {
+        "file": "build/segments/sc-02.mp4",
+        "frames": 650
+      },
+      {
+        "file": "build/segments/sc-03.mp4",
+        "frames": 800
+      },
+      {
+        "file": "build/segments/sc-04.mp4",
+        "frames": 475
+      },
+      {
+        "file": "build/segments/act-2.mp4",
+        "frames": 75
+      },
+      {
+        "file": "build/segments/sc-06.mp4",
+        "frames": 817
+      },
+      {
+        "file": "build/segments/sc-07.mp4",
+        "frames": 995
+      },
+      {
+        "file": "build/segments/sc-09.mp4",
+        "frames": 1055
+      },
+      {
+        "file": "build/segments/sc-11.mp4",
+        "frames": 682
+      },
+      {
+        "file": "build/segments/act-3.mp4",
+        "frames": 75
+      },
+      {
+        "file": "build/segments/sc-13.mp4",
+        "frames": 564
+      },
+      {
+        "file": "build/segments/act-4.mp4",
+        "frames": 75
+      },
+      {
+        "file": "build/segments/sc-15.mp4",
+        "frames": 739
+      },
+      {
+        "file": "build/segments/sc-16.mp4",
+        "frames": 681
+      },
+      {
+        "file": "build/segments/sc-17.mp4",
+        "frames": 755
+      },
+      {
+        "file": "build/segments/sc-18.mp4",
+        "frames": 784
+      },
+      {
+        "file": "build/segments/sc-21.mp4",
+        "frames": 695
+      },
+      {
+        "file": "build/segments/zz-end.mp4",
+        "frames": 247
+      }
+    ]
+  }
+}
