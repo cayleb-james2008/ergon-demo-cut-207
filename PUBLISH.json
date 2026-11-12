@@ -1,0 +1,389 @@
+{
+  "ticket": "207",
+  "mission": "m-0339",
+  "role": "publisher",
+  "outcome": "PUBLISHED",
+  "repo": "cayleb-james2008/ergon-demo-cut-207",
+  "branch": "main",
+  "commit": "e067fe499f92baea66143497f3f9c2d83c0f5b29",
+  "commitShort": "e067fe499f92",
+  "pageUrl": "https://cayleb-james2008.github.io/ergon-demo-cut-207/",
+  "mp4Url": "https://cayleb-james2008.github.io/ergon-demo-cut-207/ergon-demo-cut-6m20.mp4",
+  "videoUrl": "https://cayleb-james2008.github.io/ergon-demo-cut-207/ergon-demo-cut-6m20.mp4",
+  "publishJsonUrl": "https://cayleb-james2008.github.io/ergon-demo-cut-207/PUBLISH.json",
+  "pageStatus": 200,
+  "mp4Status": 200,
+  "rangeStatus": 206,
+  "contentType": "video/mp4",
+  "sha256": "466d5b31c99352eeb16c73df6a5438795361dae3853fab456bff02df57b540eb",
+  "bytes": 11507355,
+  "durationSec": 380,
+  "runtimeExact": "6:20.000",
+  "fileNameRuntime": "6:20",
+  "fileNameMatchesRuntime": true,
+  "pageSha256": "f2fb56ec26b3371729230a45c31883c75135c3650eaada75ac4bdf74d57b6c88",
+  "publishedAt": "2026-11-12T20:28:57.855Z",
+  "requirement": "cold public page + MP4 (200/video/mp4/Range 206/byte-equal) + fresh renders at both widths + phone playback",
+  "sources": {
+    "deliveredFilm": "worker-2/ergon-demo-cut-6m20.mp4",
+    "cutManifest": "worker-2/CUT-MANIFEST.json",
+    "landingPage": "worker-3/publish/site/index.html",
+    "servedProof": "worker-3/proofs/served.json",
+    "phonePlaybackRecord": "worker-3/proofs/phone-playback.json",
+    "pageBuildRecord": "worker-3/PAGE-BUILD.json",
+    "plan": "worker-3/PUBLISH-PLAN.md",
+    "tokenMap": "worker-3/PUBLISH-TOKENS.md"
+  },
+  "cutManifest": {
+    "path": "CUT-MANIFEST.json",
+    "sha256": "5e24fe3d311cefe445cbf3eedc1600e9b3bc0310290f002923267f8a8f365470",
+    "bytes": 24347,
+    "scenes": 14,
+    "borrowedSegments": [
+      {
+        "scene": "06"
+      },
+      {
+        "scene": "13"
+      }
+    ],
+    "reShotScenes": [
+      "02",
+      "03",
+      "13",
+      "15",
+      "17",
+      "18"
+    ]
+  },
+  "video": {
+    "file": "ergon-demo-cut-6m20.mp4",
+    "path": "ergon-demo-cut-6m20.mp4",
+    "sha256": "466d5b31c99352eeb16c73df6a5438795361dae3853fab456bff02df57b540eb",
+    "bytes": 11507355,
+    "durationSec": 380,
+    "runtimeExact": "6:20.000",
+    "faststart": true,
+    "audio": null,
+    "ffprobe": {
+      "codec": "h264",
+      "profile": "High",
+      "width": 1280,
+      "height": 720,
+      "pixFmt": "yuv420p",
+      "fps": "30/1"
+    },
+    "url": "https://cayleb-james2008.github.io/ergon-demo-cut-207/ergon-demo-cut-6m20.mp4",
+    "contentType": "video/mp4",
+    "acceptRanges": true,
+    "rangeStatus": 206,
+    "contentRange": "bytes 0-1023/11507355",
+    "fullDownloadSha256": "466d5b31c99352eeb16c73df6a5438795361dae3853fab456bff02df57b540eb",
+    "byteEqual": true
+  },
+  "files": {
+    ".nojekyll": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "CUT-MANIFEST.json": "5e24fe3d311cefe445cbf3eedc1600e9b3bc0310290f002923267f8a8f365470",
+    "ergon-demo-cut-6m20.mp4": "466d5b31c99352eeb16c73df6a5438795361dae3853fab456bff02df57b540eb",
+    "fonts/Geist-Medium.ttf": "0090e004725f6f64b841715b4167920580f883fcf9b67fc6d744089103fec101",
+    "fonts/Geist-OFL.txt": "930853ee1daa68554d9e35c8a9175affb74f699fad9a5da6ee5ebe76379d9137",
+    "fonts/Geist-Regular.ttf": "5c8968eafb98a4c4f47033daf29e38e284a6f2a82eb017d171ab040fe7c4b615",
+    "fonts/Geist-SemiBold.ttf": "612ec98df33935354f39e81e54101656961ab6e5549f64b63eb57868ba7bab8d",
+    "fonts/GeistMono-Bold.ttf": "75c0828d5c1ee44b9ef9f4df577bf41595ec362e2ea3f1e558590c9e92c7949d",
+    "fonts/GeistMono-OFL.txt": "0acca17d633ecc7180aa12d8a60a95889d87a439cb83884597ff278046743dcb",
+    "fonts/GeistMono-Regular.ttf": "a55c1b51cda4afeab9e471e7947b85a20f7c8831d7e6b1470c1b7fbdc0f0f15e",
+    "index.html": "f2fb56ec26b3371729230a45c31883c75135c3650eaada75ac4bdf74d57b6c88",
+    "poster.jpg": "ea17474f9cdd8e8f6d38d074daef8dbf39779fef557524a8d9ba968f1a44db3d"
+  },
+  "hosting": {
+    "provider": "GitHub Pages",
+    "repo": "cayleb-james2008/ergon-demo-cut-207",
+    "owner": "cayleb-james2008",
+    "branch": "main",
+    "commit": "e067fe499f92baea66143497f3f9c2d83c0f5b29",
+    "repoCreated": true,
+    "pages": {
+      "url": "https://cayleb-james2008.github.io/ergon-demo-cut-207/",
+      "status": "built",
+      "build_type": "legacy",
+      "source": {
+        "branch": "main",
+        "path": "/"
+      },
+      "public": true,
+      "https_enforced": true
+    },
+    "url": "https://cayleb-james2008.github.io/ergon-demo-cut-207/",
+    "servedAtRoot": {
+      "status": 200,
+      "sha256": "f2fb56ec26b3371729230a45c31883c75135c3650eaada75ac4bdf74d57b6c88",
+      "bytes": 18144,
+      "at": "2026-11-12T20:28:10.117Z"
+    },
+    "routeProbe": {
+      "probedAt": "2026-11-12T20:27:18.738Z",
+      "skill": "/home/cayleb/.skill-library/active/static-grade-publication/SKILL.md",
+      "cloudflarePages": {
+        "outcome": "unusable",
+        "verbatim": "✘ [ERROR] Not logged in. Your auth token has expired and could not be refreshed, and the environment is non-interactive. Run `wrangler login` in an interactive terminal or set a CLOUDFLARE_API_TOKEN.",
+        "exitStatus": 1,
+        "wrangler": "/home/cayleb/.npm/_npx/31203f1a28efbe66/node_modules/wrangler"
+      },
+      "chosen": "GitHub Pages",
+      "why": "Ticket 207 orders a new public GitHub Pages repo on this host's gh account (the 206 route); Cloudflare Pages was probed first and is unusable (verbatim above)."
+    },
+    "why": "Ticket 207 orders a new public GitHub Pages repo on this host's gh account (the 206 route); Cloudflare Pages was probed first and is unusable (verbatim above)."
+  },
+  "proofs": {
+    "coldPageFetch": "worker-3/proofs/served.json",
+    "servedByteEquality": "worker-3/proofs/served.json",
+    "videoDownload": "worker-3/proofs/served.json",
+    "freshChromium": [
+      {
+        "face": "desktop",
+        "width": 1600,
+        "height": 1000,
+        "path": "cold-desktop-1600x1000.png",
+        "sha256": "bfdaac975528d38b4e67a23362909fbe50637ea284cbb5b991bab02ba149993a",
+        "ok": true,
+        "capturedAt": null
+      },
+      {
+        "face": "phone",
+        "width": 390,
+        "height": 844,
+        "path": "cold-phone-390x844.png",
+        "sha256": "77594246fa13ebccc0840fa43b9e6b1111bd033c49d7ac58c120c2d8645fe830",
+        "ok": true,
+        "capturedAt": null
+      }
+    ],
+    "phonePlayback": "worker-3/proofs/phone-playback.json",
+    "phonePlaybackSha256": "1827d92a9dc2e6d90089d130e52c33445dfe956f191cc5444b2df5048c17b74c"
+  },
+  "phonePlayback": {
+    "method": "phone-playback",
+    "device": {
+      "model": "sdk_gphone64_x86_64",
+      "android": "15",
+      "sdk": "35",
+      "build": "sdk_gphone64_x86_64-userdebug 15 AE3A.240806.043 12960925 dev-keys",
+      "size": "Physical size: 1080x2400\nOverride size: 780x1688",
+      "density": "Physical density: 420\nOverride density: 320"
+    },
+    "chrome": {
+      "versionName": "124.0.6367.219"
+    },
+    "ok": true,
+    "fallback": false,
+    "fallbackReason": null,
+    "realDeviceAttached": true,
+    "record": {
+      "path": "worker-3/proofs/phone-playback.json",
+      "sha256": "1827d92a9dc2e6d90089d130e52c33445dfe956f191cc5444b2df5048c17b74c"
+    },
+    "playback": {
+      "afterTap": {
+        "src": "https://cayleb-james2008.github.io/ergon-demo-cut-207/ergon-demo-cut-6m20.mp4",
+        "duration": 380,
+        "videoWidth": 1280,
+        "videoHeight": 720,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": false,
+        "muted": false,
+        "currentTime": 0.717665,
+        "bufferedEnd": 134.378,
+        "canPlayH264": "probably"
+      },
+      "afterWait": {
+        "src": "https://cayleb-james2008.github.io/ergon-demo-cut-207/ergon-demo-cut-6m20.mp4",
+        "duration": 380,
+        "videoWidth": 1280,
+        "videoHeight": 720,
+        "readyState": 4,
+        "networkState": 1,
+        "paused": false,
+        "muted": false,
+        "currentTime": 1.929109,
+        "bufferedEnd": 134.378,
+        "canPlayH264": "probably"
+      }
+    },
+    "screenshot": {
+      "path": "/home/cayleb/.dsh-fleet-state/missions/m-0339/work/worker-3/proofs/phone-playback.png",
+      "sha256": "d0f8d416c4b9c7e8e01f2a6aed9a3ea0467001a3079997674fbefa21c686b248",
+      "bytes": 158290,
+      "capturedAt": "2026-11-12T20:28:23.250Z",
+      "source": "phone Chrome, Playwright page.screenshot over CDP, mid-playback"
+    },
+    "deviceScreenshot": {
+      "path": "/home/cayleb/.dsh-fleet-state/missions/m-0339/work/worker-3/proofs/phone-playback-device.png",
+      "sha256": "491399768a6839575230105958b8cde4be477ee871ac51b817b8e9e1ce17278e",
+      "bytes": 182794,
+      "capturedAt": "2026-11-12T20:28:23.790Z",
+      "source": "adb exec-out screencap, mid-playback"
+    },
+    "screenrecord": {
+      "path": "/home/cayleb/.dsh-fleet-state/missions/m-0339/work/worker-3/proofs/phone-playback-screenrecord.mp4",
+      "sha256": "1f924eccd2c6e56589fe6d255b5cf95aa5360c9e21b7190a965c966f3bcf589f",
+      "bytes": 634856,
+      "seconds": 10,
+      "capturedAt": "2026-11-12T20:28:29.892Z",
+      "source": "adb shell screenrecord on the phone display, mid-playback"
+    }
+  },
+  "page206Fix": {
+    "kind": "ticket-206-footer-and-publish-json-fix",
+    "at": "2026-11-12T20:28:57.843Z",
+    "repo": "cayleb-james2008/ergon-demo-cut-206",
+    "branch": "main",
+    "before": {
+      "commit": "c6fe52c82ba37663a3dbcb957185e7b4261d1ce4",
+      "pagesStatus": "built",
+      "pageSha256": "a5be0dd33dc742b1c0ef7636bb16ae961b8fb59a471ad9cc770f6abe56526810",
+      "filmSha256": "d0287cfd70ce5d3a3b16683afe3d349d69c2a90560737cfe324baca214c503cd",
+      "cutManifestSha256": "29d5892dfc73cd81499494568c1c533c7871f018f83b4c7a4a655ba21ffc9015"
+    },
+    "after": {
+      "commit": "6670f8648c07b5b282564d818b668ec8a01f777c",
+      "pageSha256": "1b495f54d731c99c82ccce50c7386cfd905f3624431db49f65b5ddf6b4940619",
+      "servedRoot": {
+        "status": 200,
+        "sha256": "1b495f54d731c99c82ccce50c7386cfd905f3624431db49f65b5ddf6b4940619",
+        "bytes": 3221,
+        "at": "2026-11-12T20:28:57.728Z"
+      }
+    },
+    "whatChanged": {
+      "publishedAtRoot": {
+        "file": "PUBLISH.json",
+        "sha256": "d815de95866126904fa25dfe5a2b5025a4fe0a216c97453d65e7fe5edc0f26b6",
+        "bytes": 15352,
+        "source": "../../m-0338/work/publish/PUBLISH.json",
+        "byteEqual": true
+      },
+      "footer": {
+        "oldFooter": "<footer>\n    Served from a public GitHub Pages repo. The MP4 is the delivered cut byte-for-byte; its sha256 and\n    the served-byte proof are recorded in this publication's PUBLISH.json.\n    Demo data only — never live RHL production, never the live RHL board.\n  </footer>",
+        "newFooter": "<footer>\n    Served from a public GitHub Pages repo. The MP4 is the delivered cut byte-for-byte; its sha256 and\n    the served-byte proof are recorded in <a href=\"PUBLISH.json\">this publication's PUBLISH.json</a>.\n    Posted for Ticket 206; the polished presentation cut lives on the\n    <a href=\"https://cayleb-james2008.github.io/ergon-demo-cut-207/\">Ticket 207 presentation page</a>.\n    Demo data only — never live RHL production, never the live RHL board.\n  </footer>",
+        "footerTargets": {
+          "publishJson": "https://cayleb-james2008.github.io/ergon-demo-cut-206/PUBLISH.json",
+          "presentationPage": "https://cayleb-james2008.github.io/ergon-demo-cut-207/"
+        }
+      },
+      "how": "copied the 206 publication record byte-equal into the repo root and replaced only the <footer> block of index.html (plus a footer-a inherit rule); film bytes and CUT-MANIFEST.json were not touched"
+    },
+    "publishJson": {
+      "url": "https://cayleb-james2008.github.io/ergon-demo-cut-206/PUBLISH.json",
+      "status": 200,
+      "sha256": "d815de95866126904fa25dfe5a2b5025a4fe0a216c97453d65e7fe5edc0f26b6",
+      "bytes": 15352,
+      "byteEqual": true,
+      "contentType": "application/json; charset=utf-8",
+      "at": "2026-11-12T20:28:57.772Z"
+    },
+    "newPresentationPage": {
+      "url": "https://cayleb-james2008.github.io/ergon-demo-cut-207/",
+      "status": 200,
+      "contentType": "text/html; charset=utf-8"
+    },
+    "checks": {
+      "206 PUBLISH.json records the 206 film sha256": true,
+      "206 PUBLISH.json records the 206 page sha256": true,
+      "206 repo film bytes are the delivered 206 film": true,
+      "206 repo index.html is the 206 recorded page": true,
+      "PUBLISH.json copied byte-equal into the 206 repo root": true,
+      "206 footer names PUBLISH.json (the 404ing pointer)": true,
+      "footer link style inherits the footer ink (no new palette)": true,
+      "corrected footer links the now-resolvable PUBLISH.json": true,
+      "corrected footer links the Ticket 207 presentation page": true,
+      "206 public root serves the corrected page": true,
+      "206 PUBLISH.json pointer resolves (HTTPS 200)": true,
+      "206 PUBLISH.json is served byte-equal to the 206 publication record": true,
+      "served 206 PUBLISH.json states the 206 film sha256": true,
+      "served 206 PUBLISH.json states the 206 runtime (392.233s)": true,
+      "the 206 footer target (Ticket 207 page) resolves": true,
+      "the film bytes in the repo are unchanged by the fix": true,
+      "the CUT-MANIFEST.json bytes in the repo are unchanged by the fix": true
+    },
+    "ok": true
+  },
+  "checks": {
+    "film facts: ergon-demo-cut-6m20.mp4 380s (6:20.000) sha256 466d5b31c99352ee… 11507355 bytes": true,
+    "film is H.264/yuv420p/720p/30fps, faststart, no audio": true,
+    "film is faststart (moov before mdat)": true,
+    "page references the delivered film name": true,
+    "page states the exact sha256 of the delivered film": true,
+    "page states the exact runtime": true,
+    "page carries the demo-data framing": true,
+    "page carries the Simulated call label law": true,
+    "page states no voice input": true,
+    "page states Ergon is company-agnostic": true,
+    "page loads no external origin": true,
+    "page has no root-absolute references (survives /<repo>/ serving)": true,
+    "page CSS has no gradient function (standard §9 never)": true,
+    "page carries no retired m-0138 colour": true,
+    "page carries no retired internal name": true,
+    "page is self-contained (fonts/poster/film are local files)": true,
+    "CUT-MANIFEST.json staged byte-equal to the delivered cut manifest": true,
+    "staged film is byte-equal to the delivered film": true,
+    "staged 12 files; page sha256 f2fb56ec26b33717…": true,
+    "dist manifest non-empty (10 files)": true,
+    "dist carries index.html at the root": true,
+    "public root answers HTTPS 200": true,
+    "public root does not redirect to a login/auth path": true,
+    "public root sends no WWW-Authenticate challenge": true,
+    "public root has no Set-Cookie login state": true,
+    "public root content-type is html": true,
+    "served root bytes equal the delivered dist/index.html (sha256)": true,
+    "served root byte length equals the delivered dist/index.html": true,
+    "all 10 dist files served byte-equal to the delivered dist": true,
+    "served file count equals dist file count": true,
+    "MP4 answers HTTPS 200": true,
+    "MP4 content-type is video/mp4": true,
+    "MP4 Content-Length equals the delivered take bytes": true,
+    "MP4 full cold download sha256 equals the delivered take": true,
+    "MP4 full cold download byte length equals the delivered take": true,
+    "MP4 answers a Range request with 206": true,
+    "MP4 Range Content-Range covers the requested bytes": true,
+    "MP4 Range part byte length is 1024": true,
+    "MP4 Range bytes equal the first 1024 bytes of the delivered take": true,
+    "MP4 advertises Accept-Ranges: bytes": true,
+    "cold desktop 1600x1000 loads 200": true,
+    "cold desktop has 0 page errors": true,
+    "cold desktop has 0 console errors": true,
+    "cold desktop has no horizontal overflow": true,
+    "cold desktop rendered real content (app mounted or readable page text)": true,
+    "cold desktop shows no login form": true,
+    "cold desktop needs no session cookie (public page sets none)": true,
+    "cold phone 390x844 loads 200": true,
+    "cold phone has 0 page errors": true,
+    "cold phone has 0 console errors": true,
+    "cold phone has no horizontal overflow": true,
+    "cold phone rendered real content (app mounted or readable page text)": true,
+    "cold phone shows no login form": true,
+    "cold phone needs no session cookie (public page sets none)": true,
+    "REAL PHONE: phone is quiet (no active screenrecord take)": true,
+    "REAL PHONE: phone device is attached and booted": true,
+    "REAL PHONE: phone Chrome DevTools socket forwarded": true,
+    "REAL PHONE: connected to the phone Chrome over CDP": true,
+    "REAL PHONE: phone opened a fresh tab (no prior site state)": true,
+    "REAL PHONE: phone got the public page with HTTP 200": true,
+    "REAL PHONE: phone loaded the public URL (no redirect to a login)": true,
+    "REAL PHONE: phone rendered real page content": true,
+    "REAL PHONE: phone shows no login form": true,
+    "REAL PHONE: phone load has 0 uncaught page errors": true,
+    "REAL PHONE: phone load has 0 console errors": true,
+    "REAL PHONE: phone holds no cookie for the site (public page, no login state)": true,
+    "REAL PHONE: page carries a video element": true,
+    "REAL PHONE: phone Chrome supports H.264 MP4": true,
+    "REAL PHONE: video metadata loads over the public URL (duration known)": true,
+    "REAL PHONE: video frames decode on the phone (videoWidth/videoHeight > 0)": true,
+    "REAL PHONE: the film is PLAYING on the cold phone (not paused, currentTime advances, frames decoded)": true,
+    "REAL PHONE: phone screenshot of the playing film captured": true,
+    "REAL PHONE: independent device-side screencap captured": true,
+    "REAL PHONE: on-device screenrecord of the playing film captured": true
+  },
+  "failedChecks": [],
+  "verifiedAt": "2026-11-12T20:28:57.856Z"
+}
